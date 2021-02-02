@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Examples</title>
+</head>
+<body>
+    
+    <h1 id="top">Week 2: Basic HTML</h1>
+
+    <a href="https://www.google.ca" target="_blank">Google</a>
+
+    <a href="#contact">Contact us</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto fugiat nam, debitis quisquam atque iusto sint voluptatum, ipsam nostrum obcaecati esse, unde aliquid hic provident tenetur voluptates. <a href="http://www.google.ca">Tempore, quasi.</a></p>
+
+    <h2>Image Links</h2>
+
+    <!-- link to img url -->
+
+    <!-- <a href="https://en.wikipedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Labrador_on_Quantock_%282175262184%29.jpg/1200px-Labrador_on_Quantock_%282175262184%29.jpg"></a> -->
+
+    <!-- link to img file -->
+    
+    <a href="https://en.wikipedia.org/wiki/File:Labrador_on_Quantock_(2175262184).jpg"><img src="imgs/dog.jpg"></a>
+
+    
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto fugiat nam, debitis quisquam atque iusto sint voluptatum, ipsam nostrum obcaecati esse, unde aliquid hic provident tenetur voluptates. Tempore, quasi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto fugiat nam, debitis quisquam atque iusto sint voluptatum, ipsam nostrum obcaecati esse, unde aliquid hic provident tenetur voluptates. Tempore, quasi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto fugiat nam, debitis quisquam atque iusto sint voluptatum, ipsam nostrum obcaecati esse, unde aliquid hic provident tenetur voluptates. Tempore, quasi.</p>
+
+    <h2 id="contact">Contact Information</h2>
+    <p>email: a@b.com</p>
+    <p>phone: 709-555-5555</p>
+
+    
+    <h2>Form Elements</h2>
+    
+    <!-- form elements: text fields, buttons, radio buttons, checkboxes -->
+    <form action="/url">
+        <!-- text input (required) -->
+        <input type="text" placeholder="Enter text here..." required>
+        <!-- radio buttons (checked)-->
+        <p>Radio Buttons:</p>
+        <label for="indoor">
+            <input type="radio" name="indoor-outdoor" id="indoor" value="indoor">Indoor
+        </label>
+        <label for="outdoor">
+            <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor">Outdoor
+        </label>
+        <!-- checkboxes (checked)-->
+        <p>Checkboxes</p>
+        <label for="loving">
+            <input type="checkbox" name="personality" id="loving" value="loving">Loving
+        </label>
+        <label for="playful">
+            <input type="checkbox" name="personality" id="playful" value="playful">Playful
+        </label>
+        <label for="needy">
+            <input type="checkbox" name="personality" id="needy" value="needy">Needy
+        </label>
+        <p>Submit button:</p>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <a href="#top">Back to top</a>
+    
+</body>
+</html>
