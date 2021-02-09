@@ -1,0 +1,29 @@
+/* An external style sheet */
+/* The preferred way of adding CSS to your websites */
+
+img {
+    width: 250px;
+}
+
+/* class selectors are prefixed with a single . */
+.drab-border {
+    border: 10px solid olivedrab;
+}
+
+/* id selectors are prefixed with a single # */
+#main-header {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 80px;
+}
+
+.purple {
+    color: rgb(214, 40, 214);
+}
+
+.orange {
+    color: rgb(231, 158, 24);
+}
+
+.red {
+    color: rgb(215, 42, 42);
+}

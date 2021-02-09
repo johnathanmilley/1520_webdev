@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Basic CSS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+     <!-- Linking your stylesheets is the best practice -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- I am a style element -->
+    <style>
+        body {
+            background-color: lightskyblue;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        .google-font {
+            font-family: "Bungee Shade";
+        }
+    </style>
+
+    <!-- Look for #main-header in the external style sheet to see how this element is styled -->
+    <h1 id="main-header">Intro to Basic CSS</h1>
+
+    <img src="css3.png" alt="CSS3 Logo">
+
+    <!-- An H2 element with inline style -->
+    <h2 style="color: rgb(18, 24, 10);">Week 1</h2>
+
+    <h3>This week's topics:</h3>
+    <ul class="drab-border">
+        <li>CSS external files (styles.css) vs style element (&lt;style&gt;) vs inline styles (style="")</li>
+        <li style="font-family: cursive; color: yellow;">Styling text</li>
+        <li>CSS selectors: <span class="red">element</span>, <span class="purple">class</span>, <span class="orange"> id</span></li>
+        <li class="google-font">Google Fonts</li>
+    </ul>
+    
+</body>
+</html>
