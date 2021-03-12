@@ -1,0 +1,73 @@
+/* CSS variables go here */
+:root {
+    --primary-color: rgb(230, 79, 25);
+    --secondary-color: rgb(2, 173, 230);
+}
+
+html {
+    font-size: 14px; /* setting a root font size for the page */
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px; 
+}
+
+h1 {
+    font-size: 4rem; /* 4 x 14px */
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 3rem; /* 3 x 14px */
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+p {
+    font-size: 2rem; /* 1.5 x 14px = 28px */
+}
+
+#short-p {
+    border: 5px solid black;
+    background-color: rgb(245, 95, 41);
+
+    /* clockwise notation: top right bottom left */
+    /* padding: 40px 30px 40px 30px; */
+
+    /* shorter: top+bottom right+left */
+    padding: 40px 30px;
+
+    /* target all 4 sides equally by using 1 measurement */
+    /* padding: 40px; */
+}
+
+#long-p {
+    border: 5px solid black;
+    background-color: rgb(121, 121, 223);
+    padding: 40px 30px 40px 30px;
+    
+    /* clockwise notation: top right bottom left */
+    /* margin: 40px 30px 40px 30px; */
+
+    /* shorter: top+bottom right+left */
+    /* margin: 40px 30px; */
+
+    /* target all 4 sides equally by using 1 measurement */
+    margin: 50px;
+}
+
+#units {
+    border-left: 1rem solid var(--secondary-color);
+    padding-left: 2rem;
+}
+
+/* This CSS notation states that list items (li) that are children of an element with the class 'ems' are assigned a font-size of 2em. */
+.ems li {
+    font-size: 2em;
+}
+
+.rems li {
+    font-size: 2rem;
+}

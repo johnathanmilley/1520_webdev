@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Week 2</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>CSS: Week 2</h1>
+
+    <section id="box-model">
+        
+        <h2>The Box Model</h2>
+        
+        <!-- Everything is a rectangle -->
+        <!-- Control the space around the rectangle: padding, border, and margin -->
+        
+        <p id="short-p">This is a short sentence.</p>
+        
+        <p id="long-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum eligendi harum assumenda, nisi culpa quaerat repudiandae quod ipsum, eaque iusto facilis ducimus mollitia voluptatum ipsam vitae nulla molestias reiciendis id!</p>
+
+        <p><em>Note: To see the any element as a box, use the Developer Tools built in to the browser.</em></p>
+        
+    </section>
+    
+    <section id="units">
+        <h2>Relative and Absolute Units</h2>
+
+        <p>The following example was taken from <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units">the MDN Web Docs</a></p>
+
+        <ul class="ems">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three
+                <ul>
+                    <li>Three A</li>
+                    <li>Three B
+                        <ul>
+                            <li>Three B 2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="rems">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three
+                <ul>
+                    <li>Three A</li>
+                    <li>Three B
+                        <ul>
+                            <li>Three B 2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <p><a href="ems_rems.html">Some more information on <em>ems</em> and <em>rems</em></a></p>
+            
+    </section>
+
+</body>
+</html>

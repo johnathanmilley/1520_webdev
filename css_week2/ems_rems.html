@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Week 2: Ems and Rems</title>
+    <link rel="stylesheet" href="emsrems.css">
+</head>
+<body>
+    <h1>Rems vs Ems</h1>
+
+    <h2>Ems</h2>
+
+    <p>Ems are a multiplication of the measurement by the inherited font-size. Elements will inherit properties, such as font-size, from parent elements if no property is set for that specific element. This paragraph has a size of 20px, because the <code>html</code> element has a font-size of 20px. There is no CSS rule for paragraphs defined in this style sheet.</p> 
+    
+    <p>If you create an <code>h2</code> element and apply a <code>font-size: 2em;</code> CSS property, then the <code>h2</code> element will be <code>2em = 2 * 20px = 40px</code>.</p>
+
+    <h3 style="font-size: 40px;">I am 40px at 100% screensize</h3>
+
+    <p>One problem with ems, is that they <b>compound</b>. This is demonstrated by the 2 lists on the previous page. Here's another example of this:</p>
+
+    <div>
+        <span>Outer <span>inner</span> outer</span>
+    </div>
+
+    <p>Why is this happening? The <code>span</code> element has a font-size of <code>2em</code>. An nested <code>span</code> element will use the multiplier on its parent (the first <code>span</code> element in this example).</p>
+
+    <p>So, the first span element (containing the words 'outer outer') will have a computed font size of:
+        
+    <p><code>2 * 20px (html font size) = 40px</code>.</p>
+   
+    <p>The second span will have a computed font size of:</p>
+    <p><code>2 * 40px (the computed size of the first span) = 80px</code>.</p>
+
+    <p>The <em>rem</em> unit was created to deal with this problem.</p>
+
+    <h2>Rems</h2>
+        
+    <p>The <em>rem</em> measurement works on the root of the html page, the <code>html</code> element. This eliminates the <b>compounding problem</b> because the the calculation is <em>always</em> based on the font-size property of the <code>html</code> element.</p> 
+
+    <p>See the <a href="https://github.com/ohrus/1520_webdev/blob/main/css_week2/additional_resourses.md" target="_blank">Additional Resources</a> for more examples.</p>
+
+</body>
+</html>

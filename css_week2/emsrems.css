@@ -1,0 +1,35 @@
+/* CSS variables go here */
+:root {
+    --primary-color: rgb(230, 79, 25);
+    --secondary-color: rgb(2, 173, 230);
+}
+
+html {
+    font-size: 20px; /* setting a root font size for the page */
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px; 
+}
+
+h1 {
+    font-size: 4rem; /* 4 x 14px */
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 3rem; /* 3 x 14px */
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+h3 {
+    font-size: 2em;
+}
+
+span {
+    font-size: 2em;
+}
+
