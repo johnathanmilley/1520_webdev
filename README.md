@@ -1,3 +1,3 @@
 # 1520 - webdev
 
-in-class examples and lab solutions
+completed in-class examples, links to additional resources, and lab solutions
