@@ -1,4 +1,4 @@
-# Week 9: CSS Basics III
+# Week 9: Applied Visual Design
 
 Complete [freeCodeCamp's Applied Visual Design](https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design) (up to and including Adjust the Hover State of an Anchor Tag)
 
