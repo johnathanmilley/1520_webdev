@@ -1,4 +1,4 @@
-# Week 10: Responsive Design
+# Week 10
 
 ## Weekly Tasks
 - Complete the next 7 exercises under [Applied Visual Design](https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design), up to and including *Center an Element Horizontally Using the margin Property*.
