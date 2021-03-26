@@ -2,7 +2,7 @@
 
 ## Weekly Tasks
 - Complete the next 7 exercises under [Applied Visual Design](https://www.freecodecamp.org/learn/responsive-web-design/#applied-visual-design), up to and including *Center an Element Horizontally Using the margin Property*.
-- 
+- Complete the 4 tasks on under [Responsive Web Design Principles](https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-principles)
 
 ## Normal Flow and Positioning
 
@@ -48,7 +48,7 @@ body {
 
 @media (min-width: 600px) {
     /* CSS rules go here */
-    p {
+    body {
         background-color: red;
     }
 }

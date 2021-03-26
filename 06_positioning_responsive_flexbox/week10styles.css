@@ -1,0 +1,55 @@
+html {
+    font-size: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /* border: 2px solid blueviolet; */
+}
+
+body {
+    background: rgb(162, 167, 218);
+}
+
+p {
+    /* border: 2px solid blueviolet; */
+}
+
+button {
+    display: block;
+}
+
+#position-example {
+    position: relative;
+    height: 300px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+}
+
+.box.blue { 
+    background-color: blue; 
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.box.red { 
+    background-color: red; 
+    position: absolute;
+    left: 300px;
+}
+.box.green { 
+    background-color: green; 
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+@media (min-width: 600px) {
+    /* CSS rules go here */
+    body {
+        background-color: rgb(206, 148, 148);
+    }
+}
