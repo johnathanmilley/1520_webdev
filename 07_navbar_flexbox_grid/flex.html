@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+
+    <style>
+        #flex-ex1 {
+            height: 80vh;
+            background-color: rebeccapurple;
+            display: flex;
+            flex-direction: row;  /* default = row */
+            flex-wrap: wrap;
+            /* ^^ can replace the above two rules with shorthand flex-flow: row wrap; */
+
+            /* main-axis runs in direction of flex items */
+            /* use justify-content to control how flex items sit on the main axis */
+
+            justify-content: flex-start;
+            
+            /* cross-axis runs perpendicular to direction of flex items 
+               use align-items to align along the cross-axis */
+            align-items: stretch; /* default = stretch */
+        }
+
+        .flex-item {
+            background-color: aqua;
+            margin: 1em;
+            padding: 1em;
+            flex: 1 200px;
+        }
+
+        .flex-item:nth-of-type(3) {
+            /* flex: 2 200px; */
+        }
+    </style>
+
+    <h1>Flex Examples</h1>
+    <h2>Example 1</h2>
+    <div id="flex-ex1">
+        <div class="flex-item">
+            <h2>Flex Item 1</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore assumenda, nesciunt repellat laboriosam qui voluptates deleniti perspiciatis quidem hic sed. Beatae, veniam. Similique sapiente possimus soluta magnam culpa at laudantium!</p>
+        </div>
+        <div class="flex-item">
+            <h2>Flex Item 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore assumenda, nesciunt repellat laboriosam qui voluptates deleniti perspiciatis quidem hic sed. Beatae, veniam. Similique sapiente possimus soluta magnam culpa at laudantium!</p>
+        </div>
+        <div class="flex-item">
+            <h2>Flex Item 3</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore assumenda, nesciunt repellat laboriosam qui voluptates deleniti perspiciatis quidem hic sed. Beatae, veniam. Similique sapiente possimus soluta magnam culpa at laudantium!</p>
+        </div>
+    </div>
+
+    <style>
+        #flex-ex2 {
+            background-color: royalblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around; /* main axis */
+            align-items: center; /*cross axis */
+            height: 600px;
+        }
+
+        .flex-btn {
+            border-radius: 5px;
+            font-size: 2rem;
+            padding: 0.5rem;
+            width: 50vw;
+        }
+    </style>
+
+    <h2>Example 2</h2>
+    <form id="flex-ex2">
+        <button class="flex-btn">Flex Button 1</button>
+        <button class="flex-btn">Flex Button 2</button>
+        <button class="flex-btn">Flex Button 3</button>
+    </div>
+</body>
+</html>
