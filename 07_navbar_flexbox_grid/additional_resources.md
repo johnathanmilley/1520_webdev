@@ -32,6 +32,6 @@ See the examples provided for how flex works in practice.
 
 ## Grid
 
-- [Grid by Example](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+- [Grid by Example](https://gridbyexample.com/learn/)
 
 We'll talk more about using grid during Tuesday's class.
