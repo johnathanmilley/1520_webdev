@@ -1,6 +1,8 @@
 # Week 12 (Final Week)
 
-## [Nav bars](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+## Navbars
+
+- [MDN Navbar examples](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
 
 Typically a nav bar is an unordered list of links (`<ul>`) placed inside of a (`<nav>`) element.
 
@@ -16,8 +18,20 @@ Typically a nav bar is an unordered list of links (`<ul>`) placed inside of a (`
 
 Using the `nav` element is not necessary, but it provides semantic meaning to your page, which is useful for screenreaders.
 
-## [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+## Flexbox
+
+- [MDN Flexbox Examples](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
 Flexbox is a useful tool for acheiving flexible (responsive) layouts.
 
 To generate flexible boxes of content on your page, you apply the property `display: flex` to the parent element — this will typically be a `<div>`, `<ul>` or a semantic element such as `<section>`.
+
+The default direction of a flex container is by row (horizontal). This can be changed using the `flex-direction` property on the flex container.
+
+See the examples provided for how flex works in practice.
+
+## Grid
+
+- [Grid by Example](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+
+We'll talk more about using grid during Tuesday's class.
